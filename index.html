@@ -14,7 +14,7 @@
 <body>
 <h1>Razion Privacy Policy</h1>
 
-<p><strong>Effective date:</strong> 21 September 2026<br><strong>Publisher:</strong> MACLEPRO INC ("we", "us")<br><strong>Applies to:</strong> the Razion mobile game for Android (package <code>com.sagez.razion</code>) and for iOS and iPadOS (bundle <code>com.sagez.razion</code>)</p>
+<p><strong>Effective date:</strong> 2 October 2026<br><strong>Publisher:</strong> MACLEPRO INC ("we", "us")<br><strong>Applies to:</strong> the Razion mobile game for Android (package <code>com.sagez.razion</code>) and for iOS and iPadOS (bundle <code>com.sagez.razion</code>)</p>
 
 <p>This policy explains what information Razion handles, why, and what choices you have. Razion is designed to keep your data on your device wherever possible. Where a Google or Apple service is involved, we say so plainly below. We do not sell your personal data.</p>
 
@@ -26,6 +26,7 @@
 <li>A copy of your pilot profile can be saved to your own store account so it follows you between devices: to your Google account through Google Play Games on Android, and to your iCloud account through Game Center on iOS. We never hold that copy ourselves.</li>
 <li>The game shows advertising through Google AdMob. AdMob uses your device's advertising identifier and related data, and you can control whether ads are personalised.</li>
 <li>In-app purchases are processed by Google Play Billing on Android and by Apple's App Store on iOS. We never see your payment details.</li>
+<li>Unless you have bought the ad-free upgrade, Razion needs an internet connection to play. It checks for one by contacting a Google or Apple connectivity address, which receives no information about you (section 4).</li>
 <li>Razion contains no analytics or crash-reporting SDKs, no third-party ad mediation networks and no social features.</li>
 </ul>
 
@@ -62,7 +63,8 @@
 
 <p><strong>Ad attribution on iOS.</strong> The iOS version declares Google's SKAdNetwork identifier, which lets Apple report to advertisers, in aggregate and without identifying you, that an ad led to an install.</p>
 
-<p><strong>Ad-free purchase.</strong> Buying "Remove Ads" stops Razion from requesting or showing ads, and with it the ad-related collection described above.</p>
+<p><strong>Ad-free purchase.</strong> Buying "Remove Ads" stops Razion from requesting or showing ads, and with it the ad-related collection described above. It also removes the internet requirement below.</p>
+<p><strong>Internet connection.</strong> Because the game is funded by its ads, a player who has not bought the ad-free upgrade needs an internet connection to open the game and to start each run; without one, the game shows a "No connection" screen with a Retry button. A run already in progress is never interrupted. To check for a connection, the game sends a plain request to Google's connectivity check address (<code>connectivitycheck.gstatic.com</code>) and, if that does not answer, to Apple's (<code>www.apple.com/library/test/success.html</code>). These are the same addresses Android and iOS use to check for a connection themselves. The request contains no identifier and no game data. Like any internet request, it reveals your IP address to the server that answers it, and Google or Apple handles that address under its own privacy policy. Razion does not record the result.</p>
 
 <p>Google describes its own handling of this data at <a href="https://policies.google.com/technologies/partner-sites">How Google uses information from sites or apps that use our services</a>.</p>
 
@@ -109,7 +111,7 @@
 
 <h2>10. Security</h2>
 
-<p>Communication with Google's and Apple's services uses encrypted (HTTPS) connections. The local save file is stored in the app's private storage, which other apps cannot read on an unmodified device.</p>
+<p>Communication with Google's and Apple's services, including the connection check, uses encrypted (HTTPS) connections. The local save file is stored in the app's private storage, which other apps cannot read on an unmodified device.</p>
 
 <h2>11. International transfers</h2>
 
